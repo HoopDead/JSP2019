@@ -1,0 +1,1 @@
+#_ służy w Pythonie do wyświetlania ostatniej zainicjalizowanej zmiennej w pythonie.
