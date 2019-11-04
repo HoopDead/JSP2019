@@ -9,5 +9,5 @@ G = G/255
 B = B/255
 
 lista = colorsys.rgb_to_hsv(R,G,B)
-print(lista[0] * 360, lista[1], lista[2], sep = ", ")
+print(lista[0] * 360, lista[1] * 100, "%", lista[2]*100, "%")
 
