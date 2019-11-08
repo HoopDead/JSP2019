@@ -1,0 +1,1 @@
+#assert F(1511) == "tysiac piecset jedenascie"
