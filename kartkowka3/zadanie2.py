@@ -1,5 +1,6 @@
-a = int(input("Wprowadz liczbe N: "))
+#Zadanie 2
 
+a = int(input("Wprowadz liczbe N: "))
 
 back = a-1
 
