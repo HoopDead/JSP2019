@@ -6,6 +6,9 @@ def roman_to_int(s):
             int_val += rom_val[s[i]] - 2 * rom_val[s[i - 1]]
         else:
             int_val += rom_val[s[i]]
-    return int_val
+    if(int_val <= 3000):
+        return int_val
+    else:
+        return "Liczba za duza!"
 
-print(roman_to_int('MX'))
+print(roman_to_int('MMM'))
